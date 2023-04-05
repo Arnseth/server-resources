@@ -3,7 +3,10 @@ curl  -s https://packagecloud.io/install/repositories/crowdsec/crowdsec/script.d
 
 sudo apt-get  install crowdsec
 
-sudo apt  install crowdsec-firewall-bouncer-iptables
+sudo apt  install crowdsec-firewall-bouncer-iptables -y
+
+
+#Lag en prompt som spør og bruker riktig id
 
 sudo cscli  console enroll clerm5ijr0004l2086c6bto4g
 
