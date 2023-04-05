@@ -1,0 +1,10 @@
+
+curl  -s https://packagecloud.io/install/repositories/crowdsec/crowdsec/script.deb.sh | sudo bash
+
+sudo apt-get  install crowdsec
+
+sudo apt  install crowdsec-firewall-bouncer-iptables
+
+sudo cscli  console enroll clerm5ijr0004l2086c6bto4g
+
+sudo systemctl restart crowdsec
